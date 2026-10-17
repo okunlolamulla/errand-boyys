@@ -1,0 +1,62 @@
+// Home page slideshow. Pictures are in /assets/slides (slide-01.jpg ...). Replace a file to change a picture, or edit the words below.
+const BASE = [
+  { id: 's1', title: 'Shop all type of groceries on Errand Boys', text: 'Rice, oil, provisions and more. Browse the shop and we bring it to your door.',
+    img: '/assets/slides/slide-01.jpg', alt: 'A shopping trolley full of groceries', cta: ['Shop now', '#/shop'], cta2: ['Send a shopping list', '#/request?s=1'] },
+  { id: 's2', title: 'We will deliver your order receipt and give back your change', text: 'Every purchase comes with its receipt, and whatever is left of your money comes back to you.',
+    img: '/assets/slides/slide-02.jpg', alt: 'A grocery basket in front of a long shopping receipt', cta: ['Request grocery shopping', '#/request?s=1'] },
+  { id: 's3', title: 'Frozen foods, we de run am, forget', text: 'Turkey, beef, goat meat, chicken and fish, picked fresh from the freezer for you.',
+    img: '/assets/slides/slide-03.jpg', alt: 'A couple choosing frozen chicken in a supermarket', cta: ['Shop now', '#/shop?cat=groceries'] },
+  { id: 's4', title: 'Veggies for vegetarians', text: 'Fresh vegetables and fruits at your doorstep.',
+    img: '/assets/slides/slide-04.jpg', alt: 'A shelf of fresh vegetables and fruits', cta: ['Shop fresh produce', '#/shop?cat=fruits'] },
+  { id: 's5', title: 'Is it provisions or beverages?', text: 'Biscuits, drinks, snacks and household items. Tell us the list and we shop for it.',
+    img: '/assets/slides/slide-05.jpg', alt: 'A supermarket aisle stocked with provisions', cta: ['Browse the shop', '#/shop'], cta2: ['Send a shopping list', '#/request?s=1'] },
+  { id: 's6', title: 'Best online store to ease your stress', text: 'Skip the queues and the traffic. Order from home and we do the running around.',
+    img: '/assets/slides/slide-06.jpg', alt: 'A shopping bag filled with groceries in a supermarket', cta: ['Start shopping', '#/shop'] },
+  { id: 's7', title: 'Errand Boys is here for you', text: 'A friendly agent ready to shop, collect, deliver and check things for you.',
+    img: '/assets/slides/slide-07.jpg', alt: 'A smiling Errand Boys agent holding a basket of fresh food', cta: ['Request an errand', '#/request'], cta2: ['Our services', '#/services'] },
+  { id: 's8', title: 'Work in Ibadan and interstates', text: 'Errands handled across Ibadan, and between cities when you need it.',
+    img: '/assets/slides/slide-08.jpg', alt: 'A collage of Ibadan landmarks', cta: ['See our services', '#/services'] },
+  { id: 's9', title: 'We deliver outside Ibadan', text: 'Need something sent or collected beyond Ibadan? Tell us where.',
+    img: '/assets/slides/slide-09.jpg', alt: 'Ibadan Central Bus Terminal', cta: ['Request a delivery', '#/request'] },
+  { id: 's10', title: 'Care giving services', text: 'Kind, reliable care at home for seniors and loved ones.',
+    img: '/assets/slides/slide-10.jpg', alt: 'A nurse caring for an older man', cta: ['Learn more', '#/service?s=9'], cta2: ['Talk to an agent', '#/request?s=9'] },
+  { id: 's11', title: 'Home clinic and companionships', text: 'Care and company at home, with an agent you can talk to first.',
+    img: '/assets/slides/slide-11.jpg', alt: 'Two hands clasped in a handshake of care', cta: ['Talk to an agent', '#/request?s=9'] },
+  { id: 's12', title: 'Happy life and healthy life', text: 'Support that helps the people you love live well.',
+    img: '/assets/slides/slide-13.jpg', alt: 'Two smiling older adults outdoors', cta: ['About Errand Boys', '#/about'] },
+  { id: 's13', title: 'Ibadan kini so', text: 'Proudly serving the city of Ibadan.',
+    img: '/assets/slides/slide-14.jpg', alt: 'Rooftops of Ibadan with a church tower', cta: ['Contact us', '#/contact'] },
+  { id: 's14', title: 'Nice deals, happy life', text: 'Good prices on the things you buy every day.',
+    img: '/assets/slides/slide-15.jpg', alt: 'A smiling woman shaking hands across a desk', cta: ['Shop deals', '#/shop'] },
+];
+
+const N = [
+  { id: 'n1', title: 'Frustrated by late replies? Talk to an Errand Boy', text: 'A real person answers, so you are not left waiting.',
+    img: '/assets/slides/new-01.jpg', alt: 'A woman frustrated by a late reply on her phone', cta: ['Talk to an agent', '#/live'] },
+  { id: 'n2', title: 'Verify an errand: just book an agent', text: 'We visit, check and report back with evidence.',
+    img: '/assets/slides/new-02.jpg', alt: 'Two women smiling at a phone', cta: ['Verify an errand', '#/verify'] },
+  { id: 'n3', title: 'Office errands: let us help you run it', text: 'Documents, queues and submissions handled while you work.',
+    img: '/assets/slides/new-03.jpg', alt: 'Two colleagues working at a laptop', cta: ['Request an office errand', '#/request?s=4'] },
+  { id: 'n4', title: 'Out of office? Replace us', text: 'Leave it to Errand Boys while you are away.',
+    img: '/assets/slides/new-04.jpg', alt: 'An out of office note', cta: ['Request an errand', '#/request'] },
+  { id: 'n5', title: 'Moving to your new home? We can help you', text: 'Tell us what is moving and where to, and we arrange the rest.',
+    img: '/assets/slides/new-05.jpg', alt: 'Movers loading a truck with boxes', cta: ['Request a move', '#/request?s=2'] },
+  { id: 'n6', title: 'Need help unpacking? Let us get you some boys for that', text: 'Extra hands to unload, unpack and settle you in.',
+    img: '/assets/slides/new-06.jpg', alt: 'Movers unloading boxes beside a house', cta: ['Request a move', '#/request?s=2'] },
+  { id: 'n7', title: 'Fragile load? Good packing and a proper van', text: 'Careful wrapping and the right vehicle for delicate items.',
+    img: '/assets/slides/new-07.jpg', alt: 'A mover beside furniture wrapped for transport', cta: ['Request a move', '#/request?s=2'] },
+  { id: 'n8', title: 'Packing your luggage for interstate? Let our boys do that', text: 'We pack, load and move so you do not have to.',
+    img: '/assets/slides/new-08.jpg', alt: 'Movers loading a truck', cta: ['Request a delivery', '#/request'] },
+  { id: 'n9', title: 'Need an agent? Do not worry about it', text: 'Tell us the task and an agent takes it from there.',
+    img: '/assets/slides/new-09.jpg', alt: 'A smiling delivery agent with boxes', cta: ['Request an errand', '#/request'] },
+  { id: 'n10', title: 'Early response, early arrivals', text: 'Quick replies and on-time errands, tracked with your Errand ID.',
+    img: '/assets/slides/new-10.jpg', alt: 'A delivery agent smiling with arms folded', cta: ['Track your errand', '#/track'] },
+];
+
+// Order on the home page: new pictures 1, 7, 8 and 9 sit at slides 3, 5, 6 and 8; two more new pictures come at the end.
+// (Removed from the show: "We deliver outside Ibadan" (bus terminal), "Packing your luggage for interstate", the old "Ibadan kini so" and "Nice deals" slides and new pictures 2 to 5. They are still in the list above, so adding one back is one line.)
+export const SLIDES = [
+  BASE[0], BASE[1], N[0], BASE[2], N[6], BASE[3], N[8],
+  ...BASE.slice(4, 8), ...BASE.slice(9, 12),
+  N[5], N[9],
+];
