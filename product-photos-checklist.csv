@@ -1,0 +1,109 @@
+﻿Type,ID,Category,Name,Size,Save the picture as (inside customer/dist and customer/public)
+Category,alcohols,Alcohols,Alcohols,,assets/categories/alcohols.jpg
+Category,baby-care,Baby Care,Baby Care,,assets/categories/baby-care.jpg
+Category,bath-soap,Bath Soap,Bath Soap,,assets/categories/bath-soap.jpg
+Category,body-care,Body Care,Body Care,,assets/categories/body-care.jpg
+Category,cleaning,Cleaning,Cleaning,,assets/categories/cleaning.jpg
+Category,fragrance,Fragrance,Fragrance,,assets/categories/fragrance.jpg
+Category,fruits,Fruits,Fruits,,assets/categories/fruits.jpg
+Category,groceries,Groceries,Groceries,,assets/categories/groceries.jpg
+Category,hair-extension,Hair & Extension,Hair & Extension,,assets/categories/hair-extension.jpg
+Category,hair-care,Hair Care,Hair Care,,assets/categories/hair-care.jpg
+Category,non-alcoholic,Non-Alcoholic Drinks,Non-Alcoholic Drinks,,assets/categories/non-alcoholic.jpg
+Category,oral-care,Oral Care,Oral Care,,assets/categories/oral-care.jpg
+Category,seasoning,Seasoning,Seasoning,,assets/categories/seasoning.jpg
+Category,skin-care,Skin Care,Skin Care,,assets/categories/skin-care.jpg
+Product,alcohols-1,Alcohols,Red wine,75cl,assets/products/alcohols-1.jpg
+Product,alcohols-2,Alcohols,White wine,75cl,assets/products/alcohols-2.jpg
+Product,alcohols-3,Alcohols,Premium lager beer,6 x 33cl,assets/products/alcohols-3.jpg
+Product,alcohols-4,Alcohols,Vodka,70cl,assets/products/alcohols-4.jpg
+Product,alcohols-5,Alcohols,Whisky,70cl,assets/products/alcohols-5.jpg
+Product,alcohols-6,Alcohols,Gin,75cl,assets/products/alcohols-6.jpg
+Product,alcohols-7,Alcohols,Sparkling wine,75cl,assets/products/alcohols-7.jpg
+Product,baby-care-1,Baby Care,Baby diapers (size 3),40 pieces,assets/products/baby-care-1.jpg
+Product,baby-care-2,Baby Care,Baby wipes,80 pieces,assets/products/baby-care-2.jpg
+Product,baby-care-3,Baby Care,Baby lotion,200ml,assets/products/baby-care-3.jpg
+Product,baby-care-4,Baby Care,Baby powder,200g,assets/products/baby-care-4.jpg
+Product,baby-care-5,Baby Care,Baby shampoo,200ml,assets/products/baby-care-5.jpg
+Product,baby-care-6,Baby Care,Feeding bottle,250ml,assets/products/baby-care-6.jpg
+Product,baby-care-7,Baby Care,Infant formula,400g,assets/products/baby-care-7.jpg
+Product,bath-soap-1,Bath Soap,Antibacterial bath soap,4 bars,assets/products/bath-soap-1.jpg
+Product,bath-soap-2,Bath Soap,Moisturising soap bar,150g,assets/products/bath-soap-2.jpg
+Product,bath-soap-3,Bath Soap,Shea butter soap,200g,assets/products/bath-soap-3.jpg
+Product,bath-soap-4,Bath Soap,Liquid body wash,500ml,assets/products/bath-soap-4.jpg
+Product,bath-soap-5,Bath Soap,African black soap,250g,assets/products/bath-soap-5.jpg
+Product,bath-soap-6,Bath Soap,Medicated soap,100g,assets/products/bath-soap-6.jpg
+Product,body-care-1,Body Care,Body lotion,400ml,assets/products/body-care-1.jpg
+Product,body-care-2,Body Care,Body butter,250g,assets/products/body-care-2.jpg
+Product,body-care-3,Body Care,Roll-on deodorant,50ml,assets/products/body-care-3.jpg
+Product,body-care-4,Body Care,Body spray,150ml,assets/products/body-care-4.jpg
+Product,body-care-5,Body Care,Shaving cream,200ml,assets/products/body-care-5.jpg
+Product,body-care-6,Body Care,Petroleum jelly,250ml,assets/products/body-care-6.jpg
+Product,cleaning-1,Cleaning,Dishwashing liquid,750ml,assets/products/cleaning-1.jpg
+Product,cleaning-2,Cleaning,Laundry detergent,2kg,assets/products/cleaning-2.jpg
+Product,cleaning-3,Cleaning,Bleach,1 litre,assets/products/cleaning-3.jpg
+Product,cleaning-4,Cleaning,Floor cleaner,1 litre,assets/products/cleaning-4.jpg
+Product,cleaning-5,Cleaning,Toilet cleaner,750ml,assets/products/cleaning-5.jpg
+Product,cleaning-6,Cleaning,Scouring sponges,3 pieces,assets/products/cleaning-6.jpg
+Product,cleaning-7,Cleaning,Fabric softener,1 litre,assets/products/cleaning-7.jpg
+Product,fragrance-1,Fragrance,Eau de parfum for women,100ml,assets/products/fragrance-1.jpg
+Product,fragrance-2,Fragrance,Eau de toilette for men,100ml,assets/products/fragrance-2.jpg
+Product,fragrance-3,Fragrance,Body mist,200ml,assets/products/fragrance-3.jpg
+Product,fragrance-4,Fragrance,Perfume oil,10ml,assets/products/fragrance-4.jpg
+Product,fragrance-5,Fragrance,Room air freshener,300ml,assets/products/fragrance-5.jpg
+Product,fragrance-6,Fragrance,Fragrance gift set,3 pieces,assets/products/fragrance-6.jpg
+Product,fruits-1,Fruits,Apples,1kg,assets/products/fruits-1.jpg
+Product,fruits-2,Fruits,Bananas,1 bunch,assets/products/fruits-2.jpg
+Product,fruits-3,Fruits,Oranges,1kg,assets/products/fruits-3.jpg
+Product,fruits-4,Fruits,Watermelon,1 whole,assets/products/fruits-4.jpg
+Product,fruits-5,Fruits,Pineapple,1 piece,assets/products/fruits-5.jpg
+Product,fruits-6,Fruits,Mangoes,1kg,assets/products/fruits-6.jpg
+Product,fruits-7,Fruits,Grapes,500g,assets/products/fruits-7.jpg
+Product,groceries-1,Groceries,Long grain rice,10kg,assets/products/groceries-1.jpg
+Product,groceries-2,Groceries,Vegetable oil,3 litres,assets/products/groceries-2.jpg
+Product,groceries-3,Groceries,Spaghetti,500g,assets/products/groceries-3.jpg
+Product,groceries-4,Groceries,Sugar,1kg,assets/products/groceries-4.jpg
+Product,groceries-5,Groceries,Tomato paste,400g,assets/products/groceries-5.jpg
+Product,groceries-6,Groceries,Evaporated milk,400g,assets/products/groceries-6.jpg
+Product,groceries-7,Groceries,Eggs,crate of 30,assets/products/groceries-7.jpg
+Product,groceries-8,Groceries,Bread,1 loaf,assets/products/groceries-8.jpg
+Product,hair-extension-1,Hair & Extension,Straight bundle hair,20 inch,assets/products/hair-extension-1.jpg
+Product,hair-extension-2,Hair & Extension,Curly weave,18 inch,assets/products/hair-extension-2.jpg
+Product,hair-extension-3,Hair & Extension,Braiding hair,pack,assets/products/hair-extension-3.jpg
+Product,hair-extension-4,Hair & Extension,Lace closure,4 x 4 inch,assets/products/hair-extension-4.jpg
+Product,hair-extension-5,Hair & Extension,Hair clips,pack of 12,assets/products/hair-extension-5.jpg
+Product,hair-extension-6,Hair & Extension,Wig cap,1 piece,assets/products/hair-extension-6.jpg
+Product,hair-care-1,Hair Care,Shampoo,400ml,assets/products/hair-care-1.jpg
+Product,hair-care-2,Hair Care,Conditioner,400ml,assets/products/hair-care-2.jpg
+Product,hair-care-3,Hair Care,Hair growth oil,200ml,assets/products/hair-care-3.jpg
+Product,hair-care-4,Hair Care,Hair relaxer kit,1 kit,assets/products/hair-care-4.jpg
+Product,hair-care-5,Hair Care,Edge control,100ml,assets/products/hair-care-5.jpg
+Product,hair-care-6,Hair Care,Detangling brush,1 piece,assets/products/hair-care-6.jpg
+Product,hair-care-7,Hair Care,Satin bonnet,1 piece,assets/products/hair-care-7.jpg
+Product,non-alcoholic-1,Non-Alcoholic Drinks,Bottled water,12 x 75cl,assets/products/non-alcoholic-1.jpg
+Product,non-alcoholic-2,Non-Alcoholic Drinks,Orange juice,1 litre,assets/products/non-alcoholic-2.jpg
+Product,non-alcoholic-3,Non-Alcoholic Drinks,Malt drink,6 x 33cl,assets/products/non-alcoholic-3.jpg
+Product,non-alcoholic-4,Non-Alcoholic Drinks,Cola drink,12 x 50cl,assets/products/non-alcoholic-4.jpg
+Product,non-alcoholic-5,Non-Alcoholic Drinks,Energy drink,33cl,assets/products/non-alcoholic-5.jpg
+Product,non-alcoholic-6,Non-Alcoholic Drinks,Tea bags,100 bags,assets/products/non-alcoholic-6.jpg
+Product,non-alcoholic-7,Non-Alcoholic Drinks,Chocolate drink powder,400g,assets/products/non-alcoholic-7.jpg
+Product,oral-care-1,Oral Care,Toothpaste,120g,assets/products/oral-care-1.jpg
+Product,oral-care-2,Oral Care,Soft toothbrush,1 piece,assets/products/oral-care-2.jpg
+Product,oral-care-3,Oral Care,Mouthwash,500ml,assets/products/oral-care-3.jpg
+Product,oral-care-4,Oral Care,Dental floss,50m,assets/products/oral-care-4.jpg
+Product,oral-care-5,Oral Care,Whitening toothpaste,100g,assets/products/oral-care-5.jpg
+Product,oral-care-6,Oral Care,Electric toothbrush,1 piece,assets/products/oral-care-6.jpg
+Product,seasoning-1,Seasoning,Seasoning cubes,50 pieces,assets/products/seasoning-1.jpg
+Product,seasoning-2,Seasoning,Curry powder,100g,assets/products/seasoning-2.jpg
+Product,seasoning-3,Seasoning,Thyme,50g,assets/products/seasoning-3.jpg
+Product,seasoning-4,Seasoning,Ground pepper,200g,assets/products/seasoning-4.jpg
+Product,seasoning-5,Seasoning,Iodised salt,1kg,assets/products/seasoning-5.jpg
+Product,seasoning-6,Seasoning,Garlic powder,100g,assets/products/seasoning-6.jpg
+Product,seasoning-7,Seasoning,Jollof spice mix,100g,assets/products/seasoning-7.jpg
+Product,skin-care-1,Skin Care,Face wash,150ml,assets/products/skin-care-1.jpg
+Product,skin-care-2,Skin Care,Moisturiser SPF 30,50ml,assets/products/skin-care-2.jpg
+Product,skin-care-3,Skin Care,Sunscreen,100ml,assets/products/skin-care-3.jpg
+Product,skin-care-4,Skin Care,Face serum,30ml,assets/products/skin-care-4.jpg
+Product,skin-care-5,Skin Care,Facial toner,200ml,assets/products/skin-care-5.jpg
+Product,skin-care-6,Skin Care,Lip balm,1 piece,assets/products/skin-care-6.jpg
+Product,skin-care-7,Skin Care,Sheet face masks,5 pieces,assets/products/skin-care-7.jpg
